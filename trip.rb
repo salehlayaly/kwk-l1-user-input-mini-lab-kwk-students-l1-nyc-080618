@@ -14,4 +14,4 @@ puts "Where do you want to go at night?"
 night = gets.chomp.capitalize
 # Lastly, puts it all back by interpolating these values in a string.
 
-puts ""
+puts "I want to stay #{stay} and I want to have #{eat} and go to #{night}"
